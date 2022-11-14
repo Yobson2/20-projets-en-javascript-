@@ -1,0 +1,38 @@
+[
+    {
+        "titre":"Qui est le meilleur buteur de football ivoirien de tous les temps ?",
+        "question1":"Abdoulay Traoré",
+        "question2":"Didier Drogba //",
+        "question3":"Laurent Pokou"
+    },
+    {
+        "titre":"La FIF (Fédération ivoirienne de football) a été créée en :",
+        "question1":"1965",
+        "question2":"1980",
+        "question3":"1960 //"
+    },
+    {
+        "titre":"Contre qui les Éléphants ont-ils joué leur 1er match de la CAN ?",
+        "question1":"Gabon",
+        "question2":"Dahomey //",
+        "question3":"Ghana"
+    },
+    {
+        "titre":"Quel plat est le plus consommé en Côte d'Ivoire ?",
+        "question1":"Foutou banane/sauce graine",
+        "question2":"Alloco",
+        "question3":"Garba  //"
+    },
+    {
+        "titre":"Quelle ethnie est la plus nombreuse en Côte d'Ivoire ?",
+        "question1":"Senoufo  //",
+        "question2":"Malinké",
+        "question3":"Baoulé"
+    },
+    {
+        "titre":"Qui est l'actuel Premier ministre de la Côte d'Ivoire ? (Décembre 2019)",
+        "question1":"M. Amadou Soumahoro",
+        "question2":"M. Jeannot Ahoussou Kouadio",
+        "question3":"M. Amadou Gon Coulibaly //"
+    }
+]
