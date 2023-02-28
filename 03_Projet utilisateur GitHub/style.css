@@ -1,0 +1,115 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background--custom {
+  background: linear-gradient(90deg, #a4baf5, #c8e74d, #f5a2a1);
+  background-size: 300% 300%;
+  animation: gradient 4s alternate infinite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.git-user{
+  width: 80%;
+  height: 80vh;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1{
+  font-size: 50px;
+  margin-bottom: 50px;
+  padding: auto;
+  color: #555;
+  text-align: center;
+}
+.git-user-input{
+  width: 50%;
+  margin: 0px auto;
+  height: 44px;
+  margin-bottom: 40px;
+}
+.git-user-input input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding: 20px;
+  font-size: 19px;
+}
+/*  */
+.git-user-section{
+  width: 40%;
+  height: 50%;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+ 
+}
+.user1{
+  height: 50%;
+  position: relative;
+}
+.user1{
+  height: 50%;
+  position: relative;
+  
+  font-style: oblique;
+}
+.user1 h3{
+  text-align: center;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+.picture{
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  position: relative;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 80px;
+
+}
+.picture img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 80px;
+}
+.user1 ul{
+  list-style: none;
+}
+.user1 li{
+  font-size: 20px;
+  margin: 10px auto;
+  margin-left: 10px;
+  padding: 5px 10px;
+}

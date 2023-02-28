@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas_pro\08_Validation de formulaire</title>
+</head>
+<body>
+    <div class="box-login">
+      
+        <h2>Inscrivez-vous</h2>
+        <form id="form-card">
+            
+            <div class="part-forms">
+                <div class="part-forms-card">
+                    <label>Nom de l'utilisateur</label>
+                    <input type="text" placeholder="Nom de l'utilisateur" id="utilisateur" maxlength="24">
+                    <img src="Logo/icons8-check-mark-button-48.png" alt="" id="check">
+                    <span class="message-alerte">Choisisez un pseudo entre 3 et 24</span>
+                </div>
+                <!-- <i class="fa fa-circle" aria-hidden="true"></i> -->
+                <div class="part-forms-card">
+                    <label>Entrez votre mail</label>
+                    <input type="text" placeholder="Votre mail" id="email">
+                    <img src="Logo/icons8-check-mark-button-48.png" alt="" id="check1">
+                    <span class="message-alerte">Rentrez un email valide</span>
+                </div>
+                <div class="part-forms-card">
+                    <label>Mot de passe</label>
+                    <input type="password" placeholder="Mot de passe" id="password">
+                    <img src="Logo/icons8-check-mark-button-48.png" alt="" id="check2">
+                    <span class="message-alerte">Un symbole, une lettre minuscule, un chiffre.</span>
+                    <div class="ligne">
+                        <span class="l1">faible</span>
+                        <span class="l2">moyen</span>
+                        <span class="l3">fort</span>
+                    </div>
+                </div>
+                <div class="part-forms-card">
+                    <label>Confirmer le mot de passe</label>
+                    <input type="password" placeholder="Confirmez" id="conf">
+                    <img src="Logo/icons8-check-mark-button-48.png" alt="" id="check3">
+                </div>
+            </div>
+            <button type="submit"> Connexion</button>
+        </form>
+    </div>
+     <script src="code.js"></script>
+</body>
+</html>

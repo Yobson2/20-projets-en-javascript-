@@ -1,0 +1,160 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+path {
+    transform-origin: 50% 0%;
+  }
+  .background--custom {
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+  .To-Do-list-search{
+    z-index: 2;
+    width: 80%;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+    padding: auto;
+    color: #555;
+    text-align: center;
+  }
+  .List-global{
+    width: 100%;
+    margin: 0px auto;
+    height: 50px;
+    margin-bottom: 40px;
+  }
+  .List-input{
+    width: 70%;
+    margin: 0px auto;
+    height: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    margin-top: 10px; 
+     
+  }
+.send{
+    width: 80px;
+    height: 45px;
+    margin-left: 4px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+  .send:hover{
+    background-color: deepskyblue;
+    color: white;
+    padding: auto;
+}
+  .send:active{
+    background-color: darkgrey;
+  }
+  label{
+   margin-left: 15%;
+   font-size: 18px;
+}
+  .List-input #search{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 20px;
+    font-size: 19px;
+    background-color: white;
+    border-radius: 10px;
+}
+  .check-list{
+
+    width: 70%;
+    height: 40px;
+    margin: 0px auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: transparent;
+
+}
+.check-list ul{
+  list-style: none;
+  
+}
+
+li{
+     font-size: 20px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     padding: 5px 0px;
+     color: #555;
+     margin-left: 20px;
+}
+li input{
+  width: 40px;
+  height: 40px;
+}
+li span{
+  font-size: 26px;
+  transition: text-decoration 1s ease-in-out;
+  margin-left: 8%;
+}
+li.fin-taches span{
+text-decoration: line-through;
+}
+li button{
+  border-radius: 50px;
+  border: none;
+  padding: 3px;
+  margin-left: 60%;
+}
+li button img{
+  pointer-events: none;
+}
+button:active{
+  background-color: red;
+}
+
+
+
+
+
+
+  /*animation*/
+  @keyframes path0 {
+    0% {
+      transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(10deg);
+    }
+  }
+  @keyframes path1 {
+    0% {
+      transform: rotate(-30deg);
+    }
+    100% {
+      transform: rotate(30deg);
+    }
+  }
+  @keyframes path2 {
+    0% {
+      transform: rotate(40deg);
+    }
+    100% {
+      transform: rotate(-40deg);
+    }
+  }
