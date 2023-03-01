@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-position: center;
+    background-repeat: none;
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+}
+.bloc-chrono{
+    width: 500px;
+    height: 300px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/Images/luxury-gold-watch_645691-3052.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    box-shadow: 13px 17px 5px -5px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 13px 17px 5px -5px rgba(0,0,0,0.47);
+    -moz-box-shadow: 13px 17px 5px -5px rgba(0,0,0,0.47);
+}
+.bloc-chrono .row-chrono{
+    width: 80%;
+    height: 60px;
+}
+h2{
+    text-align: center;
+    line-height: 60px ;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+.bloc-chrono .row-commande-chrono{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.commande{
+width: 100px;
+height: 40px;
+color: #112A46;
+ padding: 0.7em 1.7em;
+ font-size: 18px;
+ border-radius: 0.5em;
+ background: #AACCCC;
+ border: 1px solid #e8e8e8;
+ transition: all .3s;
+ box-shadow: 6px 6px 12px #c5c5c5;
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+}
+
+
+@media (max-width:600px ) {
+    .bloc-chrono{
+     width: 300px;
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    .commande{
+        width: 80px;
+        height: 30px; 
+        font-size: 15px; 
+    }
+}
+@media (max-width:323px){
+    .bloc-chrono{
+        width: 150px;
+        background-size: cover;
+        background-position: center center;;
+        background-repeat: no-repeat;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    .row-commande-chrono{
+        display: flex;
+        flex-direction: column;
+    }
+    .commande{
+        width: 60px;
+        height: 20px; 
+        font-size: 12px; 
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
